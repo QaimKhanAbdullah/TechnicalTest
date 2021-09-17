@@ -2,10 +2,13 @@
 Author: ABDULLAH QAIM KHAN
 Date: 18-Septemeber 2021
 
-Assumption: For simplicity the configuration of the cassettess are hardcoded.
+To avoid file location path conflicts the configuration of the cassettes are hardcoded in the driver code.  
+ASSUMPTIONS:
 Total Cassettes 5.
-Number of Active Cassettes are those whose STATUS value is set to 0.  
+Number of Active Cassettes are those whose STATUS value is set to 0 during initialization in the driver code.  
 
+
+HOW IT WORKS: The program takes the amount as input from the Console. It finds the combination of denomination that make up the total requested amount
 */
 
 #include<iostream>
